@@ -1,0 +1,70 @@
+{
+    "model_name": "LightGBM",
+    "optimal_threshold": 0.8,
+    "tau_anomaly": 0.5439,
+    "roc_auc": 0.8778,
+    "pr_auc": 0.4199,
+    "scoring_latency_ms": 0.0,
+    "benchmarks": {
+        "0.1": {
+            "threshold": 0.1,
+            "FP": 2183,
+            "FN": 14,
+            "TP": 84,
+            "TN": 54681,
+            "Precision": 3.71,
+            "Recall": 85.71,
+            "Total_Cost": 7137.5
+        },
+        "0.2": {
+            "threshold": 0.2,
+            "FP": 1477,
+            "FN": 14,
+            "TP": 84,
+            "TN": 55387,
+            "Precision": 5.38,
+            "Recall": 85.71,
+            "Total_Cost": 5372.5
+        },
+        "0.35": {
+            "threshold": 0.35,
+            "FP": 1251,
+            "FN": 15,
+            "TP": 83,
+            "TN": 55613,
+            "Precision": 6.22,
+            "Recall": 84.69,
+            "Total_Cost": 4927.5
+        },
+        "0.5": {
+            "threshold": 0.5,
+            "FP": 1209,
+            "FN": 15,
+            "TP": 83,
+            "TN": 55655,
+            "Precision": 6.42,
+            "Recall": 84.69,
+            "Total_Cost": 4822.5
+        },
+        "0.7": {
+            "threshold": 0.7,
+            "FP": 1195,
+            "FN": 15,
+            "TP": 83,
+            "TN": 55669,
+            "Precision": 6.49,
+            "Recall": 84.69,
+            "Total_Cost": 4787.5
+        },
+        "0.8": {
+            "threshold": 0.8,
+            "FP": 1189,
+            "FN": 15,
+            "TP": 83,
+            "TN": 55675,
+            "Precision": 6.53,
+            "Recall": 84.69,
+            "Total_Cost": 4772.5
+        }
+    }
+}
